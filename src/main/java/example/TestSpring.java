@@ -12,7 +12,7 @@ public class TestSpring {
     //     MusicPlayer musicPlayer = new MusicPlayer(music);
     //     musicPlayer.playMusic();
     //     context.close();
-        //Test
+        //Test_for_master
         MusicPlayer musicPlayer = context.getBean("musicPlayer",MusicPlayer.class);
         musicPlayer.playMusic();
     }
